@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>GenericDialogHandler</PackageId>
+    <Authors>conorflemingATX</Authors>
+    <Description>A generic handler for managing dialogs for chabots which with a state machine pattern.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Chatbots, Dialog Handling, Dialog Management, BotbuilderSDK</PackageTags>
+    <RepositoryUrl>https://github.com/conorflemingATX/GenericDialogHandler</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="GenericDialogHandler.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharpPlus" Version="1.1.6" />
+  </ItemGroup>
+
+</Project>
